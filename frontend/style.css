@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #007BFF;
+    --secondary-color: #707981;
+    --background-color: #bcd1e6;
+    --card-background: #ffffff;
+    --assistant-bubble: #F0F4F9;
+    --user-bubble: #b4e092;
+    --success-color: #155724;
+    --success-bg: #d4edda;
+    --border-radius: 12px;
+    --shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+body { 
+    background-color: var(--background-color); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    zoom: 95%;
+    font-family: Arial, sans-serif;
+}
+
+.chrome-container { 
+    width: 100%; 
+    max-width: 1100px; 
+    height: 100vh; 
+    box-shadow: var(--shadow); 
+    border-radius: var(--border-radius); 
+    overflow: hidden; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+
