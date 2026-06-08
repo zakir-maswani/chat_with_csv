@@ -1,10 +1,32 @@
+# Python
 __pycache__/
-*.pyc 
+*.pyc
 *.pyo
-*.pyd 
+*.pyd
 .Python
-
+venv/
 .env
 
+# IDEs and editors
+.vscode/
+.idea/
+
+# Operating System
 .DS_Store
-*.log 
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Uploaded files
+uploads/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+notebook.ipynb
+
+# Temp files from editors
+*~
+# Temp files from editors
+*~
